@@ -34,13 +34,13 @@ class _LoginState extends State<Login> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: const [
                     Text(
-                      'Hey, Welcome Back! 👋',
+                      'Hey, Hello! 👋',
                       style:
                           TextStyle(fontSize: 28, fontWeight: FontWeight.w600),
                     ),
                     SizedBox(height: 8),
                     Text("Hello again, you have been missed!",
-                        style: TextStyle(color: Colors.grey)),
+                        style: TextStyle(color: Colors.yellow)),
                   ],
                 ),
               ),
